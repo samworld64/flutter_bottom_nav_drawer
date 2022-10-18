@@ -99,12 +99,16 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         bottomNavigationBar: BottomAppBar(
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               IconButton(
                 onPressed: () => scaffoldKey.currentState!.openDrawer(),
                 icon: Icon(Icons.menu),
               ),
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.person),
+              )
             ],
           ),
         ),

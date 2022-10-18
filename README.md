@@ -6,11 +6,24 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## create a new repository on the command line
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+git init
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+git add README.md
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin https://github.com/samworld64/flutter_bottom_nav_drawer.git
+
+git push -u origin main
+
+## push an existing repository from the command line
+
+git remote add origin https://github.com/samworld64/flutter_bottom_nav_drawer.git
+
+git branch -M main
+
+git push -u origin main
